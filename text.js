@@ -9,7 +9,7 @@ if (fs.existsSync('./ejemplo.txt')) {
     let contenido = fs.readFileSync('./ejemplo.txt', 'utf-8')
     console.log(contenido)
 
-    fs.appendFileSync('./ejemplo.txt', "\nHola, que tal?")
+    fs.appendFileSync('./ejemplo.txt', "\nHola, bienvenido")
 
 
     fs.unlinkSync('./ejemplo.txt')
